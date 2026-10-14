@@ -1,0 +1,10 @@
+# Ambientes virtuais e arquivos do Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Arquivos de dados e relatórios locais
+*.json
+*.csv
+*.xlsx
