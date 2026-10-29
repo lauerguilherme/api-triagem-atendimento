@@ -37,7 +37,7 @@ def classificar_texto(texto: str) -> dict:
             messages=[
                 {
                     "role": "system",
-                    "content": "Você é um classificador. Responda ESTRITAMENTE no formato: SENTIMENTO: [POSITIVO/NEUTRO/NEGATIVO] | INTENÇÃO: [Resumo em até 5 palavras]."
+                    "content": "Você é um classificador. Responda SEMPRE em Português (Brasil). Responda ESTRITAMENTE no formato: SENTIMENTO: [POSITIVO/NEUTRO/NEGATIVO] | INTENÇÃO: [descrição em português]"
                 },
                 {
                     "role": "user",
